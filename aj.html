@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Items and Prices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff5f5;
+            margin: 50px;
+        }
+        h1 {
+            text-align: center;
+            background-color: #d63333;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        form {
+            width: 50%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        input[type="number"] {
+            width: 95%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        p {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sample Online Items and Prices</h1>
+
+    <form>
+        <label for="laptop">Laptop ($800 each):</label>
+        <input type="number" id="laptop" name="laptop" placeholder="Enter quantity">
+
+        <label for="smartphone">Smartphone ($400 each):</label>
+        <input type="number" id="smartphone" name="smartphone" placeholder="Enter quantity">
+
+        <label for="headphones">Headphones ($50 each):</label>
+        <input type="number" id="headphones" name="headphones" placeholder="Enter quantity">
+
+        <label for="tablet">Tablet ($300 each):</label>
+        <input type="number" id="tablet" name="tablet" placeholder="Enter quantity">
+
+        <button type="button">Calculate Total Price</button>
+    </form>
+
+    <p>Total Price: $0</p>
+
+</body>
+</html>
